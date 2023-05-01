@@ -1,13 +1,14 @@
 # Jasmine-Testing
 Jasmine Testing Exercises for Springboard/UMass bootcamp
+Written in Javascript, HTML, and CSS
 
 <h2>Loan Calculator</h2>
 <p>You are given the HTML, CSS, and JavaScript for a loan calculator. Your goal
 is to fill in the JavaScript to make the loan calculator functional.  The
 calculator takes an amount to loan (the <em>principle</em>), a term in years, and a yearly rate.
-The output should be the monthly payment of the loan.</p>
+The output should be the monthly payment of the loan.</p
 <p>To calculate the monthly payment, use the following formula:</p>
-<div class="math notranslate nohighlight"> \[\text{monthly payment} = \frac{P \times i}{\rule{0pt}{1em} 1 - {(1 + i)}^{-n}}\]</div>
+<div><p>Monthly Payment = ( <cite>P</cite> x <cite>i</cite> ) <b>/</b> ( 1 − (1 + <cite>i</cite>)<sup>−𝑛</sup> </p></div>
 <p>Where:</p>
 <ul class="simple">
 <li><cite>P</cite> = Amount of principle</li>
