@@ -7,8 +7,7 @@ is to fill in the JavaScript to make the loan calculator functional.  The
 calculator takes an amount to loan (the <em>principle</em>), a term in years, and a yearly rate.
 The output should be the monthly payment of the loan.</p>
 <p>To calculate the monthly payment, use the following formula:</p>
-<div class="math notranslate nohighlight">
-\[\text{monthly payment} = \frac{P \times i}{\rule{0pt}{1em} 1 - {(1 + i)}^{-n}}\]</div>
+<div class="math notranslate nohighlight"> \[\text{monthly payment} = \frac{P \times i}{\rule{0pt}{1em} 1 - {(1 + i)}^{-n}}\]</div>
 <p>Where:</p>
 <ul class="simple">
 <li><cite>P</cite> = Amount of principle</li>
