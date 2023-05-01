@@ -8,15 +8,15 @@ is to fill in the JavaScript to make the loan calculator functional.  The
 calculator takes an amount to loan (the <em>principle</em>), a term in years, and a yearly rate.
 The output should be the monthly payment of the loan.</p
 <p>To calculate the monthly payment, use the following formula:</p>
-<div><p>Monthly Payment = ( <cite>P</cite> x <cite>i</cite> ) <b>/</b> ( 1 − (1 + <cite>i</cite>)<sup>−𝑛</sup> </p></div>
+<div><p>Monthly Payment = ( <i>P</i> x <i>i</i> ) <b>/</b> ( 1 − (1 + <i>i</i>)<sup>−𝑛</sup> </p></div>
 <p>Where:</p>
 <ul class="simple">
-<li><cite>P</cite> = Amount of principle</li>
-<li><cite>i</cite> = periodic interest rate (in our case yearly rate ÷ 12)</li>
-<li><cite>n</cite> = total number of payments (years × 12)</li>
+<li><i>P</i> = Amount of principle</li>
+<li><i>i</i> = periodic interest rate (in our case yearly rate ÷ 12)</li>
+<li><i>n</i> = total number of payments (years × 12)</li>
 </ul>
-<p>There is also a jasmine test file (<cite>calculator-test.js</cite>).  Your goal is to write
-tests for the <cite>calculateMontlyPayment</cite> function.  There are a few suggested
+<p>There is also a jasmine test file (<i>calculator-test.js</i>).  Your goal is to write
+tests for the <i>calculateMontlyPayment</i> function.  There are a few suggested
 tests, but if you can think of more, feel free to add to it.</p>
 </div>
 <div class="section" id="further-study-tip-pool">
